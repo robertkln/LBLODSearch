@@ -15,4 +15,13 @@ This implementation allows for searching through entities of the class besluit:B
 > OpenAPI documentation for the /search API 
 
 ## How to run
-TBA
+
+### Docker
+
+> docker build -t lblodsearch . 
+> docker run -d --name mysearch -p 80:80 lblodsearch
+
+Open browser at localhost:80
+
+### Demo
+
