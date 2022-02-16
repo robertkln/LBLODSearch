@@ -19,9 +19,12 @@ This implementation allows for searching through entities of the class besluit:B
 ### Docker
 
 > docker build -t lblodsearch . 
+
 > docker run -d --name mysearch -p 80:80 lblodsearch
 
 Open browser at localhost:80
 
 ### Demo
+
+Live demo running at: http://141.144.193.89/
 
